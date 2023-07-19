@@ -8,7 +8,7 @@
 </head>
 <body>
 
-
+<!---------------- barre de navigation debut ------------------------------>
     <header>
         <nav>
             <ul>
@@ -19,7 +19,7 @@
                     <a href="">Programes</a>
                 </li>
                 <li>
-                    <a href="">Nos campus</a>
+                    <a href="">Nos&nbsp;campus</a>
                 </li>
                 <li>
                     <a href="">Admission</a>
@@ -33,22 +33,26 @@
             </ul>
         </nav>
     </header>
+    <!---------------- barre de navigation fin ------------------------------>
 
 
     <main>
-        <section class="premier">
-            <!-- <img src="image.jpg" alt=""> -->
-            <img src="bakeli.jpg" alt="" class="en">
+        <!---------------- premier section debut ------------------------------>
+        <section >
+            <div class="premier">
+                <img src="bakeli.jpg" alt="" class="en">
 
-            <p>Une formation 100% pratique</p>
-            <h4>
-                Hendrerit duis lacus tellus.Id sed massa <br>
-                    congue consequat in quis interdum <br>
-                            dignissim
-            </h4>
+                <div class="mouve"><p>Une formation 100% pratique</p></div>
+                <h4>
+                     Hendrerit duis lacus tellus.Id sed massa <br>
+                        congue consequat in quis interdum <br>
+                                 dignissim
+                    </h4>
+            </div>
         </section>
+        <!---------------- premier section fin ------------------------------>
 
-
+        <!---------------- deuxieme section debut ------------------------------>
         <section class="couleur">
             <div class="mous">
                 <div class="dev">
@@ -65,7 +69,7 @@
                         <img src="pin.png" alt="">
                     </div>
                     <div class="ecri">
-                        <h2>Design</h2>
+                        <h2 id="de">Design</h2>
                         <p>Augue tellus in at odio velit diam. Fringilla sagittis facilisi</p>
                     </div>
                 </div>
@@ -80,18 +84,23 @@
                 </div>
             </div>
         </section>
+         <!---------------- deuxieme section fin ------------------------------>
 
+         <!---------------- troisieme section debut ------------------------------>
+        
 
-        <section class="gris">
+         <section class="gris">
             <div class="tout">
-                <h2>Bakeli</h2>
+                <div class="sec">
+                    <h2>Bakeli</h2>
 
-                <ul>
-                    <li>Programmation</li>
-                    <li>design graphique/UI UX design</li>
-                    <li>Marketing degital</li>
-                    <li>Entrepenariat</li>
-                </ul>
+                    <ul>
+                        <li>Programmation</li>
+                        <li>design graphique/UI UX design</li>
+                        <li>Marketing degital</li>
+                        <li>Entrepenariat</li>
+                    </ul>
+                </div>
 
                 <div class="logo">
                     <div class="com">
@@ -121,70 +130,48 @@
                 </div>    
             </div>
         </section>
+<!---------------- troisieme section fin ------------------------------>
+
+<!---------------- quatrieme section debut ------------------------------>
+
         <section>
-             <div class="ensemble">
-                <div class="en">
-                    <div class="barre">
-
-                        <!-- <p>Pratique 100%</p> -->
-
-                        <div class="progressbar-debut">
-                            <div  class="progressbar1"></div>
+             <div class="container">
+                <div class="flex">
+                    <div class="skills">
+                        <h2>Pratique</h2>
+                        <div class="progress-bar">
+                            <div class="html-pre" pre="100%" style="max-width: 100%;"><span>100%</span></div>
                         </div>
-
                     </div>
 
-                    <div class="barre">
-                        <!-- <p>opportunités &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
-                            90%
-                        </p> -->
-                        <div class="progressbar-debut">
-                            <div  class="progressbar2"></div>
+                    <div class="skills">
+                        <h2>opportunités</h2>
+                        <div class="progress-bar">
+                            <div class="html-pre" pre="90%" style="max-width: 90%;"><span>90%</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <h2> Bakeliste insérés</h2>
+                        <div class="progress-bar">
+                            <div class="html-pre" pre="86%" style="max-width: 86%;"><span>86%</span></div>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <h2>Réussite</h2>
+                        <div class="progress-bar">
+                            <div class="html-pre" pre="80%" style="max-width: 80%;"><span>80%</span></div>
                         </div>
                     </div>
                 </div>
-
-                <div class="en">
-                    <div class="barre">
-                        <!-- <p>Bakelistes insérés &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
-                            80%
-                        </p> -->
-                        <div class="progressbar-debut">
-                            <div  class="progressbar3"></div>
-                        </div>
-                    </div>
-
-                    <div class="barre">
-                        <div class="progressbar-debut">
-                            <div  class="progressbar4"></div>
-                        </div>
-                    </div>
-                </div>    
-            <!-- <div class="ensemble">
-                <h2>Bakeli</h2>
-                <p class="en">viverra duis gravida nulla adipiscing velit sollicitudin facilisis lacus id amet aliquet enim ipsum</p>
-                <div class="ligne">
-                    <div class="barre1">
-                        <p>Pratique <span>100%</span></p>
-                        <progress value="100" max="100" class="mur">100%</progress>
-                        
-                        <p>Bakelistes insérés <span>80%</span></p>
-                        <progress value="80" max="100" class="mur">80%</progress>
-                    </div>
-                    <div class="barre2">
-                        <p>Opportunités <span>90%</span></p>
-                        <progress value="90" max="100" class="mur">90%</progress>
-                        
-                        <p>Reussite <span>70%</span></p>
-                        <progress value="70" max="100" class="mur">70%</progress>
-                    </div> -->
-
-                </div>
-            </div>    
+             </div>
         </section>
+        
+<!---------------- quatrieme section fin ------------------------------>        
+
+<!---------------- cinquieme section debut ------------------------------>
+
         <section class="personne">
             <h2>Notre Team</h2>
             <p>Viverra duis gravida nulla adipiscing velit sollicitudin condi,entum. in facilisis lacus id amet aliquet enim ipsum</p>
@@ -208,6 +195,10 @@
             </div>    
         </section>
 
+<!---------------- cinquieme section fin ------------------------------>
+
+<!---------------- sixieme section debut ------------------------------>
+
         <section class="ban">
             <img src="bakeli.jpg" alt="">
             <p class="sur">Risus magna turpis rhoncus leo justo, ipsum.Fusce blandit a odio pellentesque quam.Faucibus nisi quis justo ipsum vel duis cras diam.<br>
@@ -215,6 +206,8 @@
             </p>
             <p class="sous">Varius condimentum molestie lacus tempor urna.</p>
         </section>
+
+        <!---------------- sixieme section fin ------------------------------>
 
     </main>
 
@@ -230,9 +223,9 @@
             </div>
             <div class="route">
                 Nous contactez au:<br> 
-                78 546 15 51<br>
+                <a href="">78 546 15 51</a><br>
                 services clients au:<br>
-                33 854 35 25
+                <a href="">33 854 35 25</a>
             </div>
             <div class="route"> 
                 Qui sommes-nous <br>
@@ -249,4 +242,4 @@
     </footer>
     
 </body>
-</html>
+</html> 
